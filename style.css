@@ -33,6 +33,15 @@ body{
     border-right: 0;
     border-color: black;
 }
+.rule2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-width: 2px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: black;
+}
 .imCont{
     display: flex;
     justify-content: center;
@@ -139,4 +148,35 @@ align-content: center;}
     margin-top:30px;
     border-radius: 28px;
     border-style: none;     
+}
+footer{
+    display:flex;
+    justify-content: space-between;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.foot{
+    display:flex;
+    flex-direction: column;
+}
+a{
+    margin: 5px 30px 5px 30px;
+}
+.black{
+    color: black;
+}
+.last{
+    margin-top: 5px !important;
+}
+p{
+    margin-right: 30px;
+    margin-bottom: 0;
+}
+.right{
+    text-align: right;
+}
+.footerBox{
+    position: relative;
+    top: 20px;
 }
