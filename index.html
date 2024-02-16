@@ -8,14 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">  <link rel="stylesheet" href="./style.css">
-</head>
+ </head>
 <body>
     <div class="logo"><img class="im1" src="./images/logo.png" alt="people ai logo"></div>
     <hr class="rule1">
     <div class="imCont"><img class="earth_ai" src="./images/earth_ai.png" alt="ai generated image of earth">
     </div>
         <div class="earth_wrap">
- <h1>The Consumption Calculator</h1>
+ <h1 class="main">The Consumption Calculator</h1>
  <p class="paraHeavy">Find out how much of these Earth’s resources your product consumes</p>
  <div class="card_box">
  <div class="card"><img src="./images/water.png" alt="water image"><p>Water</p></div>
@@ -28,7 +28,7 @@
 <div class="inputBox"><p class="paraHeavy productName">Enter Product Name</p>
     <form action="" method="">
         <div class="opForm">
-    <input class="item_selector one" type="button" value="First" onclick="msg()">
+     <input class="item_selector" id="one" type="button" value="First" onclick="msg()">
         <input  class="item_selector op" type="button" value="Option 1" onclick="msg()">
         <input  class="item_selector op" type="button" value="Option 2" onclick="msg()">
         <input  class="item_selector op" type="button" value="Option 3" onclick="msg()">
@@ -42,7 +42,7 @@
 <hr class="rule2">
 <footer>
     <div class="foot left"><a href="">Academic Paper</a><a class="black"  href="">Code Link</a><a class="black"  href="">About</a></div>
-    <div class= "foot right"><p>sonika@peopleplus.ai</p><a class="black last"  href="">Let's Connect</a></div>
+    <div class= "foot right"><p class="email">sonika@peopleplus.ai</p><a class="black last"  href="./connect.html">Let's Connect</a></div>
 </footer>
 </div>
 <script src="./index.js"></script>
